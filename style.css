@@ -202,13 +202,4 @@ footer {
 }
 
 @media only screen and (max-width: 1000px) {
-  .carousel {
-    visibility: visible;
-  }
-
-  #map,
-  #speech,
-  #char {
-    opacity: 0;
-  }
 }
