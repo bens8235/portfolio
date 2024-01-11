@@ -1,0 +1,69 @@
+html,
+body {
+  margin: 0;
+}
+
+#main-image {
+  height: 100vh;
+  width: 100%;
+  object-fit: cover;
+  position: relative;
+  display: block;
+}
+
+#thumbnail-container {
+  display: flex;
+  justify-content: flex-end;
+  z-index: 2;
+  width: 100%;
+  position: absolute;
+  top: 0;
+}
+
+.thumbnail {
+  width: 100px;
+  height: 100px;
+}
+
+#buttons {
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+button {
+  background: none;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  color: white;
+  border: 1px solid gray;
+}
+
+#left {
+  margin-left: 100px;
+}
+
+#right {
+  margin-right: 100px;
+}
+
+button:focus {
+  outline: none;
+}
+
+@media (max-width: 425px) {
+  #main-image {
+    object-fit: contain;
+  }
+  body {
+    background-color: black;
+  }
+}

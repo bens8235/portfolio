@@ -1,0 +1,18 @@
+#map-container {
+  position: relative;
+}
+
+#char {
+  position: absolute;
+  bottom: 0;
+  left: 455px;
+  height: 35px;
+}
+
+#speech {
+  position: absolute;
+  bottom: 43%;
+  left: 48%;
+  height: 50px;
+  visibility: hidden;
+}
