@@ -186,20 +186,5 @@ footer {
   width: 100%;
 }
 
-.carousel {
-  position: absolute;
-  top: 30%;
-  left: 23%;
-  visibility: hidden;
-}
-
-.carousel-visible {
-  visibility: visible;
-}
-
-.map-visible {
-  visibility: hidden;
-}
-
 @media only screen and (max-width: 1000px) {
 }
